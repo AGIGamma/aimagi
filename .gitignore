@@ -9,9 +9,163 @@ venv/
 .venv
 ENV/
 *.log
-.coverage
-dist/
-build/
+
+# Configuraciones de editores
+.editores/*
+!editores/.gitkeep
+
+# Cursor
+.cursor/
+.cursor_cache/
+
+# Windsurf
+.windsurf/
+.windsurf_cache/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Editor futuro
+.editor_futuro/
+
+# Entornos virtuales
+venv_*/
+.venv/
+venv/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Configuraciones específicas
+.editor_config.json
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+__pycache__/
+
+# IDE
 .idea/
 .vscode/
 
+# Build
+build/
+dist/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+*.whl
+*.egg-info/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Windows
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Local development
+.env
+.venv
+env/
+ENV/
+
+# Python path configuration
+PYTHONPATH
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# Translations
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+_docs/build/
+
+# PyBuilder
+target/

@@ -1,0 +1,25 @@
+{
+  "editors": {
+    "vscode": {
+      "workspace": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\AIMAGI",
+      "settings": {
+        "python.pythonPath": ".venv\\Scripts\\python.exe",
+        "editor.formatOnSave": true
+      }
+    },
+    "cursor": {
+      "workspace": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\AIMAGI",
+      "settings": {
+        "autoSave": true,
+        "linting": true
+      }
+    },
+    "windsurf": {
+      "workspace": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\AIMAGI",
+      "settings": {
+        "sync": true,
+        "autoReload": true
+      }
+    }
+  }
+}

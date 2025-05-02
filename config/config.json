@@ -1,0 +1,5 @@
+{
+    "debug": true,
+    "log_level": "INFO",
+    "api_key": "test_key_123"
+}
